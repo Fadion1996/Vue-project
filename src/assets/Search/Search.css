@@ -1,0 +1,45 @@
+
+section.search {
+  width: 100%;
+  background-color: #fff;
+  height: 46px;
+  border-bottom: 1px solid #dedede;
+}
+
+.search {
+  display: block;
+}
+
+.search-media {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+section.search form {
+  display: block;
+}
+
+section.search span {
+  width: 100%;
+  border: none;
+}
+
+section.search input {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  padding: 0 30px;
+  height: 46px;
+  box-sizing: border-box;
+}
+
+section.search span:before {
+  font-family: "Glyphicons Regular";
+  content: "\f002";
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1em;
+  color: #acacac;
+  height: 46px;
+}
